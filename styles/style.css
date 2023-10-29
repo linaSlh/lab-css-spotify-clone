@@ -4,5 +4,252 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+   
+    
+  }
+  
+  header {
+    background-color: white;
+    color: black;
+    padding: 10px 0;
+    
+  }
+  #logo-image{
+    height: 70px;
+    width: 150px;}
+  nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        color: black;
+        background-color:white;
+        z-index: 1000; 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        align-items: center;
+        font-weight: bold;
+        font-size:16px;
+    
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    margin-right: 20px;
+  }
+  
+  .nav-list li:last-child {
+    margin-right: 0;
+  }
+  
+  .hero {
+    position: relative;
+    text-align: center;
+    
+  }
+  
+  .hero img {
+    width: 100%;
+    height: auto;
+  }
+  .hero p{
+    font-size: 20px;
+    max-width: 600px;
+  }
+  .hero h1{
+font-size: 70px; 
+margin-bottom:10px;
+font-weight: bold;
+  }
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .whats-on-spotify .spotify-text  {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px; 
+    display: flex;
+    margin-top: 20px;
+    
+  }
+  .spotify-text h2{
+    font-size: 36px;
+    font-weight: bold;
+  }
+  .whats-on-spotify .feature{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .whats-on-spotify .feature p{
+    margin-top: 10px;
+  }
+  .feature {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .feature img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .feature-text {
+    text-align: left;
+  }
+  
+  .feature-logo {
+    display: inline-block;
+    text-align: center;
+  }
+  
+
+  .feature-text p {
+    margin: 10px 0;
+  }
+  .green-section {
+    background-color: #00B172; 
+    display: flex;
+    align-items: center;
+  }
+  
+  .green-text {
+    
+    text-align: left;
+    padding:20px;
+    margin-left: 20px;
+    max-width:450px;
+    
+  }
+  
+  .centered-logo {
+    flex: 1;
+    text-align: center;
+    
+  }
+  .centered-logo img {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .right-image {
+    flex: 1;
+    text-align: right;
+  }
+  
+ 
+  .green-text p {
+    margin: 10px 0;
+  }
+  .feature img {
+    max-width: 50px; 
+    height: auto;
+  }
+  
+
+#features {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #features .feature {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  #features .feature img {
+    max-width: 50px; 
+    height: auto;
+  }
+  
+  #features .feature p {
+    margin-top: 10px;
+  }
+  #features {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #features .feature {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  #features .feature .feature-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #features .feature img {
+    max-width: 50px; 
+    height: auto;
+  }
+  
+  #features .feature p {
+    margin-top: 10px;
+  }
+  .green-text h1{
+   font-size: 36px;
+   text-decoration: underline;
+   color: #fff;
+   
+  }
+  .green-section{
+    color: #fff;
+  }
+  .green-section p {
+    margin-bottom: 20px;
+
+  }
+  .green-section img {
+max-width: 400px;
+max-height :700px;
+margin-top: 70px;
+margin-right :70px;
+margin-bottom: 70px;
+  }
+  .feature{
+    max-width: 200px;
+  }
+  .feature-content h2{
+    font-size: 20px;
+    color: #00B172;
+    margin-bottom: 10px;
+    font-weight:bold;
+  }
+  .feature-content{
+    margin-bottom: 10px;
+  }
+  .green-text h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:10px;
+  }
+  h1{
+    font-weight:bold;
+  }
